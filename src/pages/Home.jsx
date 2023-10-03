@@ -5,6 +5,7 @@ import React from "react";
 import Hero from "../components/Hero";
 // assets
 import flyer from "../assets/flyernew.jpg";
+import dark from "../assets/darkBg.jpg";
 import pics from "../assets/photos.jpg";
 import logo from "../assets/ubl-logo.png";
 import Mission from "../components/Mission";
@@ -13,8 +14,15 @@ export default function Home() {
   return (
     <div>
       <Hero />
-      <div className="mt-3  py-4 bg--white shadow-slate-800 shadow-lg ">
-        <h1 className="text-center my-4 text-primary-200 text-2xl md:text-4xl font-bold ">
+      <div
+        className="mt-3  py-4 bg-primary-100 shadow-slate-800 shadow-lg "
+        style={{
+          backgroundImage: `url(${dark})`,
+          backgroundSize: "100% 100%",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
+        <h1 className="text-center my-4 text-white text-2xl md:text-4xl font-bold ">
           UPCOMING EVENTS
         </h1>
 

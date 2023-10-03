@@ -44,7 +44,7 @@ export default function Hero() {
   }, [newSlide]);
 
   return (
-    <section className="relative w-full flex h-72 md:h-[24rem]  overflow-hidden">
+    <section className="relative w-full flex h-72 md:h-[40rem]  overflow-hidden">
       {slides.map((slide, i) => (
         <div
           key={i}
@@ -62,7 +62,7 @@ export default function Hero() {
           <div className="absolute top-0 left-0 bg-slate-900 h-full w-full opacity-40"></div>
           <div className=" absolute top-0 left-0 w-full h-full z-10 pl-4 py-5 md:pr-5 lg:pr-9">
             {slide.type === "main" && (
-              <div className="w-full h-full flex flex-col justify-center px-3">
+              <div className="w-full h-full flex flex-col justify-center px-1">
                 <h1 className="text-2xl text-white font-bold md:text-4xl lg:text-5xl">
                   {slide.detail}
                 </h1>
