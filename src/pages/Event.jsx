@@ -4,7 +4,7 @@ import EventDetails from "../components/EventDetails";
 import Agenda from "../components/Agenda";
 
 // assets
-import flyer from "../assets/flyer.png";
+import flyer from "../assets/flyernew.jpg";
 import dark from "../assets/darkBg.jpg";
 import yellow from "../assets/yellow.jpg";
 import pulse from "../assets/pulse.jpg";

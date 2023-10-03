@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  min-height: 100vh;
+}
+
 .nav-links {
   @apply mx-auto lg:mx-0 lg:mr-10 mb-6 lg:mb-0 w-fit  text-xl text-primary-300 font-semibold hover:border-b-2 hover:border-accent-200 hover:text-accent-200 hover:translate-y-0;
 }

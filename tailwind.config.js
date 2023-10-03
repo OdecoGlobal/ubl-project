@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      animation: {
+        spin2: "spin2 3s linear infinite",
+      },
       colors: {
         primary: {
           100: "#71c0f5",
@@ -17,6 +20,13 @@ export default {
       },
       fontFamily: {
         script: ["Dancing Script", "cursive"],
+      },
+      keyframes: {
+        spin2: {
+          to: {
+            transform: "rotate(360deg)",
+          },
+        },
       },
     },
   },
