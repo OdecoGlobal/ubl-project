@@ -15,7 +15,7 @@ export default function Home() {
     <div>
       <Hero />
       <div
-        className="mt-3  py-4 bg-primary-100 shadow-slate-800 shadow-lg "
+        className="mt-3  py-4 bg-slate-950"
         style={{
           backgroundImage: `url(${dark})`,
           backgroundSize: "100% 100%",
