@@ -8,6 +8,15 @@ import flyer from "../assets/flyernew.jpg";
 import dark from "../assets/darkBg.jpg";
 import yellow from "../assets/yellow.jpg";
 import pulse from "../assets/pulse.jpg";
+import chs from "../assets/chs.jpg";
+import anam from "../assets/AnamTechies.jpg";
+import ubl from "../assets/ubls.jpg";
+import crypto from "../assets/cryboot.jpg";
+import diamond from "../assets/diamond.jpg";
+import flend from "../assets/flend.jpg";
+import good from "../assets/good.jpg";
+import i4g from "../assets/i4g.jpg";
+import jtalks from "../assets/jtalks.jpg";
 
 export default function Event() {
   const { day, hours, mins, secs } = useDate();
@@ -24,6 +33,42 @@ export default function Event() {
     {
       src: pulse,
       name: "Crypto Pulse",
+    },
+    {
+      src: chs,
+      name: "CHS Techies",
+    },
+    {
+      src: anam,
+      name: "Anambra Techies",
+    },
+    {
+      src: ubl,
+      name: "NAU Blockchain",
+    },
+    {
+      src: flend,
+      name: "Flend",
+    },
+    {
+      src: jtalks,
+      name: "Jtalks",
+    },
+    {
+      src: crypto,
+      name: "Crypto Bootcamp",
+    },
+    {
+      src: diamond,
+      name: "Diamond",
+    },
+    {
+      src: good,
+      name: "Good",
+    },
+    {
+      src: i4g,
+      name: "Ingressive for Good",
     },
   ];
   return (
@@ -65,14 +110,14 @@ export default function Event() {
         </div>
       </div>
       <Agenda />
-      <div className="text-center font-semibold text-lg">
+      <div className="text-center font-semibold text-lg mb-5 border-2 border-red-300 px-10">
         <h2>Sponsors:</h2>
-        <div className="flex justify-center flex-wrap mt-2">
+        <div className="flex justify-center flex-wrap gap-5 mt-2">
           {sponsors.map((sponsor) => (
             <img
               src={sponsor.src}
               alt={sponsor.name}
-              className="mr-3 w-24"
+              className=" w-24"
               loading="lazy"
             />
           ))}
