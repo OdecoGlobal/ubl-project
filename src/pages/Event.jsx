@@ -110,7 +110,7 @@ export default function Event() {
         </div>
       </div>
       <Agenda />
-      <div className="text-center font-semibold text-lg mb-5 border-2 border-red-300 px-10">
+      <div className="text-center font-semibold text-lg mb-5 px-10">
         <h2>Sponsors:</h2>
         <div className="flex justify-center flex-wrap gap-5 mt-2">
           {sponsors.map((sponsor) => (
